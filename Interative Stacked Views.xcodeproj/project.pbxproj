@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2556216E23223FBC005EE68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556216D23223FBC005EE68E /* AppDelegate.swift */; };
+		2556217023223FBC005EE68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556216F23223FBC005EE68E /* SceneDelegate.swift */; };
+		2556217223223FBC005EE68E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556217123223FBC005EE68E /* ContentView.swift */; };
+		2556217423223FBE005EE68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2556217323223FBE005EE68E /* Assets.xcassets */; };
+		2556217723223FBE005EE68E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2556217623223FBE005EE68E /* Preview Assets.xcassets */; };
+		2556217A23223FBE005EE68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2556217823223FBE005EE68E /* LaunchScreen.storyboard */; };
+		2556218223224105005EE68E /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2556218123224104005EE68E /* CardViewController.xib */; };
+		255621842322579C005EE68E /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255621832322579B005EE68E /* CardViewController.swift */; };
+		2556218623225861005EE68E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556218523225861005EE68E /* ViewController.swift */; };
+		25562188232258B5005EE68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25562187232258B5005EE68E /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2556216A23223FBC005EE68E /* Interative Stacked Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interative Stacked Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2556216D23223FBC005EE68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2556216F23223FBC005EE68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2556217123223FBC005EE68E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2556217323223FBE005EE68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2556217623223FBE005EE68E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2556217923223FBE005EE68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2556217B23223FBE005EE68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2556218123224104005EE68E /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		255621832322579B005EE68E /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		2556218523225861005EE68E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25562187232258B5005EE68E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2556216723223FBC005EE68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2556216123223FBC005EE68E = {
+			isa = PBXGroup;
+			children = (
+				2556216C23223FBC005EE68E /* Interative Stacked Views */,
+				2556216B23223FBC005EE68E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2556216B23223FBC005EE68E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2556216A23223FBC005EE68E /* Interative Stacked Views.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2556216C23223FBC005EE68E /* Interative Stacked Views */ = {
+			isa = PBXGroup;
+			children = (
+				2556216D23223FBC005EE68E /* AppDelegate.swift */,
+				2556216F23223FBC005EE68E /* SceneDelegate.swift */,
+				2556217123223FBC005EE68E /* ContentView.swift */,
+				2556217323223FBE005EE68E /* Assets.xcassets */,
+				2556217823223FBE005EE68E /* LaunchScreen.storyboard */,
+				25562187232258B5005EE68E /* Main.storyboard */,
+				2556218523225861005EE68E /* ViewController.swift */,
+				255621832322579B005EE68E /* CardViewController.swift */,
+				2556218123224104005EE68E /* CardViewController.xib */,
+				2556217B23223FBE005EE68E /* Info.plist */,
+				2556217523223FBE005EE68E /* Preview Content */,
+			);
+			path = "Interative Stacked Views";
+			sourceTree = "<group>";
+		};
+		2556217523223FBE005EE68E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2556217623223FBE005EE68E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2556216923223FBC005EE68E /* Interative Stacked Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2556217E23223FBE005EE68E /* Build configuration list for PBXNativeTarget "Interative Stacked Views" */;
+			buildPhases = (
+				2556216623223FBC005EE68E /* Sources */,
+				2556216723223FBC005EE68E /* Frameworks */,
+				2556216823223FBC005EE68E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interative Stacked Views";
+			productName = "Interative Stacked Views";
+			productReference = 2556216A23223FBC005EE68E /* Interative Stacked Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2556216223223FBC005EE68E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Karthik;
+				TargetAttributes = {
+					2556216923223FBC005EE68E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 2556216523223FBC005EE68E /* Build configuration list for PBXProject "Interative Stacked Views" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2556216123223FBC005EE68E;
+			productRefGroup = 2556216B23223FBC005EE68E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2556216923223FBC005EE68E /* Interative Stacked Views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2556216823223FBC005EE68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2556218223224105005EE68E /* CardViewController.xib in Resources */,
+				25562188232258B5005EE68E /* Main.storyboard in Resources */,
+				2556217A23223FBE005EE68E /* LaunchScreen.storyboard in Resources */,
+				2556217723223FBE005EE68E /* Preview Assets.xcassets in Resources */,
+				2556217423223FBE005EE68E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2556216623223FBC005EE68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2556218623225861005EE68E /* ViewController.swift in Sources */,
+				255621842322579C005EE68E /* CardViewController.swift in Sources */,
+				2556216E23223FBC005EE68E /* AppDelegate.swift in Sources */,
+				2556217023223FBC005EE68E /* SceneDelegate.swift in Sources */,
+				2556217223223FBC005EE68E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2556217823223FBE005EE68E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2556217923223FBE005EE68E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2556217C23223FBE005EE68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2556217D23223FBE005EE68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2556217F23223FBE005EE68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Interative Stacked Views/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Interative Stacked Views/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karthik.Interative-Stacked-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2556218023223FBE005EE68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Interative Stacked Views/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Interative Stacked Views/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karthik.Interative-Stacked-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2556216523223FBC005EE68E /* Build configuration list for PBXProject "Interative Stacked Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2556217C23223FBE005EE68E /* Debug */,
+				2556217D23223FBE005EE68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2556217E23223FBE005EE68E /* Build configuration list for PBXNativeTarget "Interative Stacked Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2556217F23223FBE005EE68E /* Debug */,
+				2556218023223FBE005EE68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2556216223223FBC005EE68E /* Project object */;
+}
